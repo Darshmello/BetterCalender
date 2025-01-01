@@ -1,0 +1,139 @@
+Calendly Clone Parts:
+- Account/ Account authentication
+    - Logging in w Google or third party thing 
+
+- Creating the purpose for an appt within the app
+    - Am I a barber, consultant of some sort, etc
+        - This could be customizable too, to make it appealing to customers
+
+- Creating an appt 
+    - Cool interactive calendar
+    - You can input details for appt
+- Sending a confirmation of appt
+    - sends to email 
+
+- Sharing a link that will allow user to book 
+    - Could use a link shortener here 
+
+
+STEPS TO COMPLETE THE PROJECT : 
+
+- Create repo and install all dependencies needed
+
+- Decide what stack to use 
+- Set up routes for each functionality 
+    - /login, /create-appt, /view-calender, etc
+- Database to store important info
+    - user info , appt details, etc
+
+- Logging in
+    - Auth
+        -What is auth? Why is it important? What are the different providers of auth? (Darsh)
+    - Set up the login page 
+    - When a user is authenticated, add them to the db
+    - Allow user to login and logout
+
+- Modeling the db 
+    - How would we organize the db
+        - Think of the db like a table with rows and columns 
+            - Each row and column has a title
+    - How do we retrieve info from the db 
+        - SQL, and other querying tools 
+
+- Building a form for users to specify what their service type is (barber)
+    - HTML form
+
+- Develop the Booking system 
+    - Calender UI 
+        - What are some libraries that we can use to make it look cool 
+    - Appointment form
+        - Fields
+            - Name
+            - Email
+            - Time 
+            - Other stuff
+        - Validating the form (WHAT DOES THIS MEAN)
+            - How to validate stuff (on frontend and backend)
+        - Storing the appt details in the database 
+
+- Appointment confirmation 
+    - setting up an email service to send a confirmation email 
+        - What are ways to do this
+    - Format the emails to make it look official
+
+- Enabling link sharing for booking 
+    - How to create a url 
+    - How to shorten the url to make it look good 
+    - Include the link in the profile dashboard
+
+ Test and Debug**
+   - Test all features:
+     - Account login and authentication.
+     - Service customization.
+     - Appointment booking and calendar functionality.
+     - Email notifications and link sharing.
+   - Fix bugs and optimize performance.
+
+
+10. Deploy the App**
+   - Deploy the backend using Google Cloud Functions, AWS, or Heroku.
+   - Host the frontend on a platform like Google Firebase Hosting or Netlify.
+   - Configure a domain name for professional presentation.
+
+
+        
+
+
+
+
+What differs: calenderly only focuses on the meeting aspect.
+
+
+
+
+Questions to think about :
+-what can we do that would help customers after the inital video call?
+-What if the AI gets the info wrong will it try again 
+-Is this an extension or a website 
+-How would I connect this to google hangouts and have it running in the background- is this too hard 
+-How many appointments even happen on google hangouts
+
+
+
+
+1. Video call
+    -Figure out recording rights
+2. Transcript 
+3. Figure out:
+    -where the appointment is 
+    -When it is 
+    -Who is going to be there
+
+4.confirm with both user's b4 it gets added into each of their calenders
+5.Adds that task/appointment onto a google calender data(ex) 
+
+1. Video Call 
+2. Transcript
+3. Summary / potential questions that could be asked 
+4. Create document with info 
+5. Send to email 
+
+
+
+- We assume that an appointment will be made and are looking for it 
+Options:
+    1.an appointment was discussed
+    2.a follow up meeting was discussed
+    3.No plan for a meet up was made.
+        -could incorperate a reminder system: "hey Anish!, your last meeting with Varun Plumbing was 1 week ago , any updates?" and ask both user's if they want to do make another appointment.
+
+Areas that need more usage: adding meeting to 
+
+
+
+Idea Number 2 
+- Outsource the project to India 
+- 
+
+Idea #3:
+
