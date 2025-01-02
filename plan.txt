@@ -2,6 +2,7 @@ Calendly Clone Parts:
 - Account/ Account authentication
     - Logging in w Google or third party thing 
 
+
 - Creating the purpose for an appt within the app
     - Am I a barber, consultant of some sort, etc
         - This could be customizable too, to make it appealing to customers
@@ -30,6 +31,7 @@ STEPS TO COMPLETE THE PROJECT :
     - Auth
         -What is auth? Why is it important? What are the different providers of auth? (Darsh)
     - Set up the login page 
+        - 
     - When a user is authenticated, add them to the db
     - Allow user to login and logout
 
